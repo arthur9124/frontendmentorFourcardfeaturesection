@@ -1,0 +1,126 @@
+@import './_color.scss';
+
+
+
+
+body {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Poppins";
+    color: $Color; 
+    font-size:15px ;
+    background-color: $ColorBackground;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 27%;
+    text-align: center;
+}
+
+header h1 {
+    font-weight: 200;
+    color: $ColorTitle;
+    
+}
+
+section h3 {
+
+color: $ColorTitle;
+font-size: 20px;
+margin: 0px;
+
+}
+
+header span {
+    font-weight: 600;
+}
+
+.container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+section .card {
+
+width: 350px;
+height: 250px;
+background-color: white;
+border-radius: 10px;
+margin: 30px;
+box-shadow: 0px 10px 5px 5px rgba(0,0,0,0.04);
+
+}
+
+section .cardmid {
+
+    width: 350px;
+    height: 250px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 30px;
+    display: flex;
+    box-shadow: 0px 10px 5px 5px rgba(67, 36, 36, 0.04);
+
+
+  
+    
+}
+
+
+section .azulclaro {
+
+    border-top: 5px solid hsl(180, 62%, 55%);
+
+}
+
+section .vermelho {
+
+    border-top: 5px solid hsl(0, 78%, 62%);
+}
+
+section .laranja {
+
+    border-top: 5px solid hsl(34, 97%, 64%)
+
+}
+
+
+section .azulescuro {
+
+    border-top: 5px solid hsl(212, 86%, 64%);
+
+
+}
+
+    // - Red: hsl(0, 78%, 62%)
+    // - Cyan: hsl(180, 62%, 55%)
+    // - Orange: hsl(34, 97%, 64%)
+    // - Blue: hsl(212, 86%, 64%)
+
+
+section .cardcontent {
+
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    
+
+}
+
+section img {
+
+    width: 60px;
+    display: flex;
+    align-self: flex-end;
+    margin-top: 20px;
+}
